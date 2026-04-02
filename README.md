@@ -451,4 +451,42 @@ These rules should be adapted to the enterprise’s logs (e.g. Sysmon IDs, CentO
 APT41’s breadth and sophistication demand a multi-faceted defense-in-depth approach. By mapping its known TTPs to ATT&CK techniques
 , security teams can focus on high-risk behaviors (e.g. unusual scheduled tasks, persistent C2 traffic, credential theft). Ingesting and correlating threat intelligence from multiple sources – commercial (VT, Talos, Mandiant blogs), open (OTX, AbuseIPDB, MISP communities), and government (FBI/CISA alerts) – is critical for early detection. The tables above summarize key feeds and controls.
 
-Finally, a structured detection playbook (with example Splunk searches) ensures that when APT41 indicators appear, analysts and automation respond swiftly. Rapid enrichment (via VT/OTX APIs), prioritized alerting (if domains or hashes match APT41 IOCs), and automated containment (block domains, isolate host) can drastically reduce dwell time. These measures – coupled with executive support and cross-team collaboration – equip defenders to detect and disrupt APT41’s dual espionage/crime campaigns before severe impact
+Finally, a structured detection playbook (with example Splunk searches) ensures that when APT41 indicators appear, analysts and automation respond swiftly. Rapid enrichment (via VT/OTX APIs), prioritized alerting (if domains or hashes match APT41 IOCs), and automated containment (block domains, isolate host) can drastically reduce dwell time. These measures – coupled with executive support and cross-team collaboration – equip defenders to detect and disrupt APT41’s dual espionage/crime campaigns before severe impact.
+
+## Sources: 
+
+This report synthesizes official and primary research on APT41, including US government filings
+, vendor threat reports (Mandiant/Google
+, Cisco Talos
+, TrendMicro
+), MITRE ATT&CK mappings
+, and community threat feeds
+, as cited above.
+
+## References
+
+* Mandiant. "APT41: A Dual Espionage and Cyber Crime Operation." 2019.
+
+* FireEye. "Double Dragon: APT41, a Dual Espionage and Cyber Crime Operation." 2019.
+
+* MITRE ATT&CK. "APT41." https://attack.mitre.org/groups/G0096/
+
+* U.S. Department of Justice. "Chinese Military Personnel Charged with Computer Fraud, Economic Espionage and Wire Fraud." 2020.
+
+* U.S. Department of Justice. "Seven International Cyber Defendants, Including ‘Apt41’ Actors, Charged in Connection with Computer Intrusion Campaigns Targeting More Than 100 Victims Globally." 2020.
+
+* CISA and FBI. "People’s Republic of China State-Sponsored Cyber Actor Living off the Land to Evade Detection." 2022.
+
+* Microsoft Threat Intelligence. "China-based threat actor APT41 uses Google Calendar for command and control." 2025.
+
+* Google Cloud Mandiant. "APT41 and DUST Campaign Analysis." 2023.
+
+* CrowdStrike. "APT41 Adopts New Techniques in Global Espionage Campaigns." 2023.
+
+---
+
+## Prepared By
+
+Ahmed Muktar Muhumed
+
+Prepared as part of independent research on APT41, threat intelligence, and advanced persistent threat detection.
