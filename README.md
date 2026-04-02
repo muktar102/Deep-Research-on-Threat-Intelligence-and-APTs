@@ -10,3 +10,7 @@ Executing an APT attack requires a higher degree of customization and sophistica
 
 An APT (Advanced Persistent Threats) is a network attack that exploits a series of sophisticated methods to gain unauthorized access to a target network and establish a foothold for a long period. The ‘advanced‘ nature of these threats originated from the use of cutting-edge techniques designed to exploit vulnerabilities. These vulnerabilities are not known to the public or security experts, which is why they are also called ‘zero-day’ exploits.
 Advanced Persistent Threats (APT) Lifecycle
+## Architecture
+<p align="left">
+  <img src="Deep Research on Threat Intelligence and APTs/lifecycle-APT.png" width="700">
+</p>
