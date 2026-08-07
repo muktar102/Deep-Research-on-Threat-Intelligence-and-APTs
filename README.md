@@ -12,7 +12,7 @@ An APT (Advanced Persistent Threats) is a network attack that exploits a series 
 Advanced Persistent Threats (APT) Lifecycle
 ## Architecture
 <p align="left">
-  <img src="Deep Research on Threat Intelligence and APTs/lifecycle-APT.png" width="900">
+  <img src="Deep Research on Threat Intelligence and APTs/aPT.png" width="900">
 </p>
 
 ## Technologies used
