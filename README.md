@@ -14,6 +14,7 @@ Advanced Persistent Threats (APT) Lifecycle
 <p align="left">
   <img src="Deep Research on Threat Intelligence and APTs/lifecycle-APT.png" width="900">
 </p>
+
 ## Technologies used
 
 - Threat Intelligence
