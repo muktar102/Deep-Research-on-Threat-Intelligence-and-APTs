@@ -14,7 +14,13 @@ Advanced Persistent Threats (APT) Lifecycle
 <p align="left">
   <img src="Deep Research on Threat Intelligence and APTs/lifecycle-APT.png" width="900">
 </p>
+## 💻 Technologies
 
+- Threat Intelligence
+- Advanced Persistent Threats (APT)
+- MITRE ATT&CK
+- Indicators of Compromise (IOCs)
+- Threat Hunting
 ## APT41 (Wicked Panda) Threat Intelligence Report
 
 Executive Summary: APT41 (aka Wicked Panda, Barium, Winnti) is a prolific Chinese state-sponsored APT that also conducts financially-motivated cybercrime
